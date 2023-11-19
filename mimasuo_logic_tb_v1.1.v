@@ -11,7 +11,7 @@ module mimasuo_logic_tb_new();
     initial begin
         $dumpfile("mimasuo_logic_v1.1.vcd");
         $dumpvars(0,mimasuo_logic_tb_new);
-        file=$fopen("E://yanjiusheng//study//研一上//数字集成电路//密码锁//txt//test.txt","rb");
+        file=$fopen("./test.txt","rb");
         clk=0;
         button0=0;
         button1=0;
